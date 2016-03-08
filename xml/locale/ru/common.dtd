@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY lang "ru">
+<!ENTITY title "Пример локализации">
+<!ENTITY currentLocale "Текущий язык">
+<!ENTITY locales "Доступные языки">
+<!ENTITY hello "Всем привет!">
+<!ENTITY veryVeryVeryLongEntity "Ваш дом может быть конфискован в случае несвоевременного исполнения обязятельств по ипотечному кредиту.">

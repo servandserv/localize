@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY lang "en">
+<!ENTITY title "Localization example">
+<!ENTITY currentLocale "Current locale">
+<!ENTITY locales "Available locales">
+<!ENTITY hello "Hello World!" >
+<!ENTITY veryVeryVeryLongEntity "Your home may be repossessed if you do not keep up repayments on your mortgage.">
+
