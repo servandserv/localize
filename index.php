@@ -35,9 +35,10 @@
     {
         const LOCALE_PATH = "xml/locale/";
         
-        var $dtd;
-        var $lang;
-        var $handle;
+        public $dtd;
+        public $lang;
+        public $handle;
+        public $ls = array( "en", "ru" );
 
         public function stream_open($path, $mode, $options, &$opened_path)
         {
@@ -48,7 +49,7 @@
                 $_SESSION["LANG"] = $this->lang;
             }
             
-            
+            if(!in_array($this->lang,$this->ls)) $this->lang="en";
         
             $url = parse_url( $path );
             $this->dtd = dirname(__FILE__)."/".self::LOCALE_PATH.$this->lang."/".$url["host"];
